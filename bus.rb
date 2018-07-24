@@ -23,7 +23,7 @@ class Bus
   end
 
   def empty_bus()
-    @passengers = []
+    @passengers.clear()
   end
 
 
