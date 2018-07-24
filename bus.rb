@@ -26,6 +26,14 @@ class Bus
     @passengers.clear()
   end
 
+  def pick_up_from_stop(stop)
+    no_of_person = stop.person_count()
+    for person in stop.return_queue()
+      pick_up(person)
+    end
+    stop.empty_queue()
+
+  end
 
 
 end

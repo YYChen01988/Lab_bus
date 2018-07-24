@@ -13,5 +13,11 @@ class BusStop
     return @queue.count()
   end
 
+  def return_queue()
+    return @queue
+  end
+   def empty_queue()
+     @queue.clear()
+   end
 
 end
