@@ -14,6 +14,9 @@ class Bus
     return @passengers.count()
   end
 
+  def pick_up(new_person)
+    @passengers << new_person 
+  end
 
 
 
