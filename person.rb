@@ -4,4 +4,5 @@ class Person
     @name = name
     @age = age
   end
+  
 end
